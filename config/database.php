@@ -33,6 +33,7 @@ return [
     */
 
     'connections' => [
+
         'pg-heroku' => [
             'driver'   => 'pgsql',
             'host'     => $heroku_db_url['host'],
